@@ -9,14 +9,14 @@ const About = ({ styles }) => {
           <Image width={300} height={280} src="/about.gif" alt="image" />
         </div>
         <div className={styles.aboutTextSection}>
-          <h3 className={styles.aboutHeader}>Meet Future KREDICT</h3>
+          <h3 className={styles.aboutHeader}>Meet Future STARFROG</h3>
           <p className={styles.aboutText}>
-            We will strive to make KREDICTChain as one of the prominent way
+            We will strive to make STARFChain as one of the prominent way
             Blockchain will be used in different areas of business and economy
             as well as social welfare and other major areas of technology
           </p>
           <p className={styles.aboutText}>
-            <i className="las la-arrow-right"></i>KREDICTChain Blockchain
+            <i className="las la-arrow-right"></i>STARFChain Blockchain
           </p>
           <p className={styles.aboutText}>
             <i className="las la-arrow-right"></i>Multicurrency Wallet
@@ -31,7 +31,7 @@ const About = ({ styles }) => {
         <div className={styles.futureItemBlock}>
           <ul className={styles.futureColumn}>
             <li>
-              <i className="las la-star"></i>KREDICTChain Blockchain
+              <i className="las la-star"></i>STARFChain Blockchain
             </li>
             <li>
               <i className="las la-star"></i>Multicurrency Wallet
@@ -43,7 +43,7 @@ const About = ({ styles }) => {
               <i className="las la-star"></i>MultiVerse and MetaVerse
             </li>
             <li>
-              <i className="las la-star"></i>Audit Platform for KREDICTChain
+              <i className="las la-star"></i>Audit Platform for STARFChain
             </li>
             <li>
               <i className="las la-star"></i>NFT Marketplace
