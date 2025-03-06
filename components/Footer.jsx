@@ -11,8 +11,8 @@ const Footer = ({ styles }) => {
         </p>
         <p className={styles.brandText}>by</p>
         <p className={styles.brandText}>
-          <Link href="https://www.kredict.com" target="_blank">
-            KREDICT
+          <Link href="https://t.me/knulltv" target="_blank">
+            KNULL CHARTS
           </Link>
         </p>
       </div>
