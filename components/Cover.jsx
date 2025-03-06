@@ -51,7 +51,7 @@ const Cover = () => {
                   Hello
                 </h2>
                 <p className={styles.exchangeMode}>
-                  {/* {tokenData.tokenSymbol} */}$ / BNB
+                  {/* {tokenData.tokenSymbol} */}$ / SOL
                 </p>
                 <a
                   target="_blank"
@@ -116,7 +116,7 @@ const Cover = () => {
                 onChange={validateExchangeAmount}
               ></input>
               <small className={styles.balanceText}>
-                Balance: <small id="balance-text"></small> BNB
+                Balance: <small id="balance-text"></small> SOL
               </small>
               <small id="notice-text" className={styles.noticeText}></small>
               <small id="error-text" className={styles.errorText}></small>
@@ -165,7 +165,7 @@ const Cover = () => {
               <div className={styles.lowerStatLine}>
                 <p className={styles.lowerStatCurrency} id="amount-raised"></p>
                 <p className={styles.lowerStatToken}>
-                  Hard Cap <span id="hard-cap">4000</span> BNB
+                  Hard Cap <span id="hard-cap">4000</span> SOL
                 </p>
               </div>
             </div>
@@ -182,16 +182,16 @@ const Cover = () => {
             </div>
           </div>
           <div className={styles.brandText}>
-            <Link id="host" target="_blank" href="https://www.kredict.com">
-              Powered by KREDICT
+            <Link id="host" target="_blank" href="https://t.me/knulltv">
+              Powered by KNULL
             </Link>
           </div>
         </div>
 
         <div className={styles.textSection}>
-          <h2 className={styles.header}>KREDICT ICO</h2>
+          <h2 className={styles.header}>STARFROG ICO</h2>
           <h4 className={styles.tag}>
-            Kredict is a decentralized launchpad that allows users to launch
+            STARFROG is a decentralized launchpad that allows users to launch
             their token and create their initial token sale with staking
             benefits to their holders and they don&apos;t require any Coding
             Knowledge For this.
@@ -209,11 +209,11 @@ const Cover = () => {
       </section>
       <div className={styles.contractNoteSection}>
         <p className={styles.contractNote}>
-          You can buy KDT also by sending BNB directly to Presale Contract
+          You can buy STF also by sending SOL directly to Presale Contract
         </p>
         <p id="contract-address" className={styles.contractAddress}>
           {/* {tokenData.presaleContract} */}
-          Demo Text
+          5zy7MBMaMk4cQv7WdJkEH7iBS9RV9T1PPN15YbqmZ2bT
         </p>
         <br />
         <a className={styles.actionBtnCopy} onClick={copyAddress}>
